@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Vucut {
     public static void main(String[] args) {
         double boy, kilo;
+        @SuppressWarnings("resource")
         Scanner inp = new Scanner(System.in);
         System.out.print("Lütfen boyunuzu metre cinsinden giriniz: ");
         boy = inp.nextDouble();

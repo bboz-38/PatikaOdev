@@ -5,6 +5,7 @@ public class Daire {
     public static void main(String[] args) {
         int yaricap,aciOlcusu;
         double alan,piSayisi=3.14;
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         System.out.print("Yarıçap ölçüsünü giriniz: ");
         yaricap = input.nextInt();

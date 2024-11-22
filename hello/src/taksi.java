@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Taksi {
     public static void main(String[] args) {
         int km;
+        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         System.out.print("Mesafeyi km cinsinden giriniz: ");
         km = input.nextInt();
@@ -13,7 +14,7 @@ public class Taksi {
         double odenecekTutar = (km * kmUcreti) + acilisUcreti;
 
         if (odenecekTutar < 20) {
-            odenecekTutar = minimumTutar;
+
             System.out.println("Borcunuz: " + minimumTutar);
         } else {
             System.out.println("Borcunuz: " + odenecekTutar);

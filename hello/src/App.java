@@ -5,6 +5,7 @@ public class App {
     public static void main(String[] args) throws Exception {
        
         int mat,fizik,kimya,turkce,tarih,muzik;
+        @SuppressWarnings("resource")
         Scanner inp = new  Scanner(System.in);
 
         System.out.print("Matematik notunuz giriniz: ");

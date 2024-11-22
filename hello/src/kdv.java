@@ -6,6 +6,7 @@ public class Kdv {
 
    public static void main(String[] args) {
     double tutar,sonuc;
+    @SuppressWarnings("resource")
     Scanner inp = new Scanner(System.in);
     System.out.print("Ücret tutarını giriniz: ");
     tutar = inp.nextDouble();

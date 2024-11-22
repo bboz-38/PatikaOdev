@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Alan {
     public static void main(String[] args) {
         int a,b,c,alan;
+        @SuppressWarnings("resource")
         Scanner inp = new Scanner(System.in);
         System.out.print("İlk kenar uzunluğunu giriniz: ");
         a = inp.nextInt();
