@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class taksi {
+public class Taksi {
     public static void main(String[] args) {
         int km;
         Scanner input = new Scanner(System.in);

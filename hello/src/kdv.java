@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class kdv {
+public class Kdv {
 
    public static void main(String[] args) {
     double tutar,sonuc;
